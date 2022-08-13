@@ -150,7 +150,7 @@ function redondearNumero(num) {
   var entero = num - resto;
    if(resto >=0.5){
     return entero + 1;
-  }else{
+   }else{
     return entero;
    }
   return Math.round(num);
