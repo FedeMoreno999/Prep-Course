@@ -19,7 +19,7 @@ function mayoriaDeEdad(edad) {
     return "Allowed";
   }
    else{
-    return "Not Allowed";
+    return "Not allowed";
    }
     
 }
@@ -57,7 +57,7 @@ function saludo(idioma) {
   else if(idioma === "ingles"){
     return "Hello!";
   }else{
-    return "Kon'nichiwa";
+    return "Hola";
   }
 }
 
