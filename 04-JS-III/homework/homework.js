@@ -82,7 +82,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var suma = 0;
   for(var i = 0; i < numeros.length; i++){
-    suma = suma + numero[i];
+    suma = suma + numeros[i];
   }
   return suma;
 }
