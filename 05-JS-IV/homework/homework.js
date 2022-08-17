@@ -79,12 +79,12 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(objeto ["propiedad"]){
+  if(objeto["propiedad"]){
     return true;
-  }else{
+  } else {
     return false;
   }
-  return objeto.hasOwnProperty(propiedad);
+  //return objeto.hasOwnProperty(propiedad);
 }
 
 function verificarPassword (usuario, password) {
@@ -118,7 +118,7 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for(var i = 0; i < usuario.length; i++){
+  for(var i = 0; i < usuarios.length; i++){
     usuarios[i].esPremium = true;
   }
   return usuarios;
